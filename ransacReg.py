@@ -34,7 +34,7 @@ rnsc1.fit(x_train, y_train)
 
 y_pred_rnsc1 = rnsc1.predict(x_test)
 
-plt.scatter(x_train, y_train, c="grey")
+plt.scatter(x_test, y_test, c="grey")
 
 plt.plot(x_test, y_pred_rnsc1, c="peru")
 plt.show()
