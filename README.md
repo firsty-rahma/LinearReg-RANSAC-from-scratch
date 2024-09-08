@@ -34,9 +34,9 @@ _z_ : peluang RANSAC dalam mendapatkan minimal satu pilihan inlier<br />
 _w_ : peluang jumlah inlier terpilih terhadap jumlah data input<br />
 
 ### _Component of learning_
-* Optimasi (_cost function_) dalam Linear Regression dengan RANSAC adalah tingkat error dari hasil prediksi model dengan input subset data di RANSAC dan jarak antara hasil prediksi dan target sesungguhnya di Linear Regression
-* Objective dalam RANSAC adalah meminimalkan tingkat error dari hasil prediksi tersebut
-* Selain parameter dari model yang digunakan, parameter RANSAC yang bisa dioptimasi adalah _n_, _t_, _z_.
+* Optimasi dalam Linear Regression dengan RANSAC adalah tingkat error dari hasil prediksi model dengan input subset data di RANSAC dan jarak antara hasil prediksi dan target sesungguhnya di Linear Regression
+* Objective dalam Linear Regression dengan RANSAC adalah meminimalkan tingkat error dari hasil prediksi tersebut
+* Selain parameter _learning rate_ dan iterasi dari linear regression, parameter RANSAC yang bisa dioptimasi adalah _n_, _t_, _z_.
 
 ### Kelebihan dan kekurangan
 Kelebihan dari RANSAC adalah membantu menentukan parameter input model dengan cepat. Namun kekurangannya RANSAC adalah sensitif terhadap perubahan karakteristik data, pengaturan parameter dari model dan RANSAC itu sendiri.
