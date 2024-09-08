@@ -65,3 +65,6 @@ while k > k_done :
 	k_done += 1
 end while
 ```
+## Referensi Coding
+* RANSAC : Martin A. Fischler and Robert C. Bolles. 1981. Random sample consensus: a paradigm for model fitting with applications to image analysis and automated cartography. Commun. ACM 24, 6 (June 1981), 381–395. https://doi.org/10.1145/358669.358692
+* Linear Regression : Andrew Ng and Tengyu Ma. 2023. CS229 Lecture Notes https://cs229.stanford.edu/main_notes.pdf
